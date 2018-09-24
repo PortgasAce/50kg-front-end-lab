@@ -1,0 +1,37 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+ 	display: flex;
+ 	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {color: #2c2c2c;}  
+a:visited {color: #2c2c2c;} 
+a:link {color: #2c2c2c;}  
+
+#center{
+	margin: 0 auto;
+}
+
+#title {
+	color: #2c2c2c;
+	font-size: 30px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#welcome {
+	font-size: 20px;
+	text-align: center;
+}
+
+
