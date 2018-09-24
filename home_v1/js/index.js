@@ -10,11 +10,16 @@ $(document).ready(function(){
 	let right = $("#right");
 	let avatar = $("#avatar");
 
-	left.hover(function(event){
+	let setBlackFace = function(event){
 		avatar.attr("src","http://image.fiftykg.com/www/WechatIMG95.jpeg");
-	})
+	};
 
-	right.hover(function(event){
+	let setWhiteFace = function(event){
 		avatar.attr("src","http://image.fiftykg.com/www/WechatIMG165.jpeg");
-	})
+	};
+
+	left.hover(setBlackFace);
+	left.click(setBlackFace);
+	right.hover(setWhiteFace);
+	right.hover(setWhiteFace);
 });
