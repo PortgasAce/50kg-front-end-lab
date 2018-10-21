@@ -1,0 +1,11 @@
+.good-boy-cant-see {
+    height: 200px;
+    width: 200px;
+    background: #eee;
+    color: transparent;
+}
+
+.good-boy-cant-see > ::selection {
+    
+    color:#555;
+}

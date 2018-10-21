@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.box {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 10px solid red;
+    background-color: black;
+}
+
+/*有padding、margin总宽高不变*/
+.border-box {
+    box-sizing: border-box;
+}
+
+/*有padding和margin宽高会变大*/
+.content-box {
+    box-sizing: content-box;
+}

@@ -19,7 +19,8 @@ $(document).ready(function(){
 	};
 
 	left.hover(setBlackFace);
+	right.hover(setWhiteFace);
+
 	left.click(setBlackFace);
-	right.hover(setWhiteFace);
-	right.hover(setWhiteFace);
+	right.click(setWhiteFace);
 });
